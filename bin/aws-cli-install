@@ -9,5 +9,3 @@ echo 'AWS CLI installation is completed'
 cd /workspace
 
 clear
-
-aws --version
