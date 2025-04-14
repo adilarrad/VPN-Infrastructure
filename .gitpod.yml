@@ -8,8 +8,8 @@ tasks:
       AWS_CLI_AUTO_PROMPT:  on-partial
     before: 
               ./bin/aws-cli-install
-    command: echo""AWS CLI installed"
+    command: echo "AWS CLI installed"
   - name: terraform
     before: 
               ./bin/terraform-install
-    command: echo"Terraform installed"
+    command: echo "Terraform installed"
